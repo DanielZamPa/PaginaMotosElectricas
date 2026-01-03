@@ -1,0 +1,9 @@
+nav{
+    background-color: aliceblue;
+}
+nav li{
+    display: flex;
+}
+nav .nav_options{
+    display: flex;
+}

@@ -1,0 +1,29 @@
+/* Add styles here */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --box-height: 140px;
+    --color: #004B23;
+    --nav-autor: 45%x;
+}
+
+body {
+    background: lightgray;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(../assets/fondo/BANNER_SLIDESHOW_CITI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .clear-fix{
+    clear: both;
+} */
+
