@@ -7,18 +7,18 @@
 
 /* Variables */
 :root{
-    --box-height: 140px;
-    --color: #004B23;
-    --nav-autor: 45%x;
+    --BackgroundThemeLight: #B8FB3C;
+    --TextColorThemeLight: #03045E;
+    --BackgroundThemeDark: #03045E;
+    --TextColorThemeDark: #B8FB3C;
 }
 
-body {
-    background: lightgray;
+body {    
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-image: url(../assets/fondo/BANNER_SLIDESHOW_CITI.jpg);
+    /* background-image: url(../assets/fondo/BANNER_SLIDESHOW_CITI.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,3 +27,4 @@ body {
     clear: both;
 } */
 
+@media
