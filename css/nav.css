@@ -1,14 +1,15 @@
-nav{
-    
+nav{    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 20px;
     border-radius: 24px;
     width: 95%;
-    height: auto;
-    margin: auto;    
+    padding: 1rem;
+    background-color: var(--BackgroundTheme);
 }
 #nav_body{
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 nav li{
     display: flex;    
@@ -19,5 +20,5 @@ nav .nav_options{
 nav ul li a{    
     padding-inline: 10px;
     text-decoration: none;
-    color: #03045E;
+    color: var(--TextColorTheme);
 }
